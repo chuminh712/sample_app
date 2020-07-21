@@ -1,5 +1,27 @@
 en:
   base_title: Ruby on Rails Tutorial Sample App
+  users:
+    new:
+      sign_up: "Sign Up"
+      sign_up_text: "This will be a signup page for new users."
+  layouts:
+    application:
+      title: "Ruby on rails Tutorial Sample App"
+      en: "English"
+      vi: "Vietnamese"
+    header:
+        home: "Home"
+        help: "Help"
+        log_in: "Log in"
+        sample_app: "Sample App"
+    footer:
+        about: "About"
+        contact: "Contact"
+        tutorial: "Ruby on Rails Tutorial"
+        the: "The"
+        by: "by"
+        news: "News"
+        michael_hartl: "Michael Hartl"
   static_pages:
     home:
       sample_app: "Sample App"
