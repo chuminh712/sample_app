@@ -6,6 +6,7 @@ link:
   learn_enough: "https://www.learnenough.com/"
   screen_casts: "https://screencasts.railstutorial.org/"
   ruby_on_rails: "https://rubyonrails.org/"
+  size_avatar: 80
 
 email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
 
