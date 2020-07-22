@@ -4,6 +4,23 @@ vi:
     new:
       sign_up: "Đăng ký"
       sign_up_text: "Đây là trang đăng ký cho người dùng mới."
+      name: "Họ tên"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      sign_up_success: "Chào mừng đến với Sample App!"
+      sign_up_fail: "Đăng kí thất bại."
+      submit: "Tạo tài khoản"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      sign_up_now: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
+      profile: "Thông tin"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
+    create:
+      log_in_success: "Chào mừng đến với Sample App!"
+      log_in_fail: "Tên đăng nhập hoặc mật khẩu không đúng"
   layouts:
     application:
       title: "Ruby on rails Tutorial Sample App"
@@ -29,6 +46,7 @@ vi:
       home_page: "Đây là trang chủ của"
       tutorial: "Tài liệu Ruby on Rails"
       sample_application: "ứng dụng mẫu"
+      sign_up: "Đăng ký"
     help:
       sample_app: "Ứng dụng mẫu"
       help: "Trợ giúp"

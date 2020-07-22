@@ -4,6 +4,23 @@ en:
     new:
       sign_up: "Sign Up"
       sign_up_text: "This will be a signup page for new users."
+      name: "Name"
+      password: "Password"
+      confirmation: "Confirmation"
+      sign_up_success: "Welcome to the Sample App!"
+      sign_up_fail: "Signup Failed."
+      submit: "Create my account"
+  sessions:
+    new:
+      log_in: "Log In"
+      sign_up_now: "Sign up now!"
+      new_user: "New user?"
+      profile: "Profile"
+      setting: "Setting"
+      log_out: "Log_out"
+    create:
+      log_in_success: "Welcome to the Sample App!"
+      log_in_fail: "Invalid email/password combination"
   layouts:
     application:
       title: "Ruby on rails Tutorial Sample App"
@@ -29,6 +46,7 @@ en:
       home_page: "This is the home page for the"
       tutorial: "Ruby on Rails Tutorial"
       sample_application: "sample application"
+      sign_up: "Sign Up"
     help:
       sample_app: "Sample App"
       help: "Help"
