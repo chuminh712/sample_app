@@ -1,5 +1,27 @@
 vi:
   base_title: Ruby on Rails Tutorial Sample App
+  users:
+    new:
+      sign_up: "Đăng ký"
+      sign_up_text: "Đây là trang đăng ký cho người dùng mới."
+  layouts:
+    application:
+      title: "Ruby on rails Tutorial Sample App"
+      en: "English"
+      vi: "Vietnamese"
+    header:
+        home: "Trang chủ"
+        help: "Trợ giúp"
+        log_in: "Đăng nhập"
+        sample_app: "Sample App"
+    footer:
+        about: "Giới thiệu"
+        contact: "Liên hệ"
+        tutorial: "Tài liệu Ruby on Rails"
+        the: "Các"
+        by: "bởi"
+        news: "Tin tức"
+        michael_hartl: "Michael Hartl"
   static_pages:
     home:
       sample_app: "Ứng dụng mẫu"
