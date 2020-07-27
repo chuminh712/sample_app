@@ -18,9 +18,13 @@ vi:
       profile: "Thông tin"
       setting: "Cài đặt"
       log_out: "Đăng xuất"
+      remember_me: "Lưu tài khoản trên máy tính này"
     create:
       log_in_success: "Chào mừng đến với Sample App!"
       log_in_fail: "Tên đăng nhập hoặc mật khẩu không đúng"
+      log_out_success: "Đăng xuất thành công"
+    destroy:
+      log_out_success: "Đăng xuất thành công"
   layouts:
     application:
       title: "Ruby on rails Tutorial Sample App"
