@@ -7,6 +7,11 @@ link:
   screen_casts: "https://screencasts.railstutorial.org/"
   ruby_on_rails: "https://rubyonrails.org/"
   size_avatar: 80
+  gravatar_email: "https://gravatar.com/emails"
+  index_avatar_size: 50
+
+kaminari:
+  page: 10
 
 email_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
 
@@ -14,3 +19,5 @@ user:
   name_length: 50
   email_length: 255
   password_length: 6
+
+check_box: 1
