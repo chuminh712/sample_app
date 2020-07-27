@@ -10,6 +10,17 @@ vi:
       sign_up_success: "Chào mừng đến với Sample App!"
       sign_up_fail: "Đăng kí thất bại."
       submit: "Tạo tài khoản"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      sign_up_now: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
+      profile: "Thông tin"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
+    create:
+      log_in_success: "Chào mừng đến với Sample App!"
+      log_in_fail: "Tên đăng nhập hoặc mật khẩu không đúng"
   layouts:
     application:
       title: "Ruby on rails Tutorial Sample App"
