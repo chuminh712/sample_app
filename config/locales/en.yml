@@ -18,9 +18,12 @@ en:
       profile: "Profile"
       setting: "Setting"
       log_out: "Log_out"
+      remember_me: "Remember me on this computer"
     create:
       log_in_success: "Welcome to the Sample App!"
       log_in_fail: "Invalid email/password combination"
+    destroy:
+      log_out_success: "Log out success"
   layouts:
     application:
       title: "Ruby on rails Tutorial Sample App"
