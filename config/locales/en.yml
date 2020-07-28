@@ -1,5 +1,16 @@
 en:
+  hi: "Hi"
+  sample_app: "Sample App"
   base_title: Ruby on Rails Tutorial Sample App
+  account_activation:
+    activate: Please check your email to activate your account.
+    chance: Chance
+    activate_mail_content: "Welcome to the Sample App!
+         Click on the link below to activate your account"
+    flash_activate: "Please check your email to activate your account."
+  account_activated: Account activated!
+  invalid_activation_link: Invalid activation link!
+  message_login: Account not activated. Check your email for the activation link.
   users:
     get_error: "Can't find user."
     logged_in: "Please log in."
