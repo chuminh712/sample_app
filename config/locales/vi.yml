@@ -1,23 +1,39 @@
 vi:
   base_title: Ruby on Rails Tutorial Sample App
   users:
+    get_error: "Không tìm thấy người dùng"
+    logged_in: "Mời bạn đăng nhập."
     new:
       sign_up: "Đăng ký"
       sign_up_text: "Đây là trang đăng ký cho người dùng mới."
-      name: "Họ tên"
-      password: "Mật khẩu"
-      confirmation: "Xác nhận mật khẩu"
       sign_up_success: "Chào mừng đến với Sample App!"
       sign_up_fail: "Đăng kí thất bại."
       submit: "Tạo tài khoản"
+    form:
+      name: "Họ tên"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+    index:
+      all_users: "Danh sách người dùng"
+    user:
+      delete: "Xoá"
+      you_sure: "Bạn chắc chứ?"
+    edit:
+      save_changes: "Lưu thay đổi"
+      edit_user: "Cập nhật"
+      update_profile: "Cập nhật thông tin người dùng"
+      changes: "Thay đổi"
+    update:
+      update_success: "Cập nhật thành công"
+      update_fail: "Cập nhật thất bại"
+    destroy:
+      delete_success: "Xoá người dùng thành công"
+      delete_failed: "Xoá người dùng thất bại"
   sessions:
     new:
       log_in: "Đăng nhập"
       sign_up_now: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
-      profile: "Thông tin"
-      setting: "Cài đặt"
-      log_out: "Đăng xuất"
       remember_me: "Lưu tài khoản trên máy tính này"
     create:
       log_in_success: "Chào mừng đến với Sample App!"
@@ -35,6 +51,10 @@ vi:
         help: "Trợ giúp"
         log_in: "Đăng nhập"
         sample_app: "Sample App"
+        users: "Danh sách"
+        profile: "Thông tin"
+        settings: "Cài đặt"
+        log_out: "Đăng xuất"
     footer:
         about: "Giới thiệu"
         contact: "Liên hệ"

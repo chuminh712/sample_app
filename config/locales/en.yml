@@ -1,23 +1,39 @@
 en:
   base_title: Ruby on Rails Tutorial Sample App
   users:
+    get_error: "Can't find user."
+    logged_in: "Please log in."
     new:
       sign_up: "Sign Up"
       sign_up_text: "This will be a signup page for new users."
-      name: "Name"
-      password: "Password"
-      confirmation: "Confirmation"
       sign_up_success: "Welcome to the Sample App!"
       sign_up_fail: "Signup Failed."
       submit: "Create my account"
+    form:
+      name: "Name"
+      password: "Password"
+      confirmation: "Confirmation"
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
+      you_sure: "You sure?"
+    edit:
+      save_changes: "Save changes"
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      changes: "Change"
+    update:
+      update_success: "Profile updated"
+      update_fail: "Profile update fail"
+    destroy:
+      delete_success: "User deleted"
+      delete_failed: "User delete failed"
   sessions:
     new:
       log_in: "Log In"
       sign_up_now: "Sign up now!"
       new_user: "New user?"
-      profile: "Profile"
-      setting: "Setting"
-      log_out: "Log_out"
       remember_me: "Remember me on this computer"
     create:
       log_in_success: "Welcome to the Sample App!"
@@ -34,6 +50,10 @@ en:
         help: "Help"
         log_in: "Log in"
         sample_app: "Sample App"
+        users: "Users"
+        profile: "Profile"
+        settings: "Setting"
+        log_out: "Log out"
     footer:
         about: "About"
         contact: "Contact"
