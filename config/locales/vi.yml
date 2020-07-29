@@ -8,6 +8,7 @@ vi:
     activate_mail_content: "Chào mừng đến với Sample App
          Bấm vào link này để kích hoạt tài khoản"
     flash_activate: "Kiểm tra email để kích hoạt tài khoản."
+  password_reset: "Khôi phục mật khẩu"
   account_activated: "Tài khoản đã được kích hoạt!"
   invalid_activation_link: "Kích hoạt không thành công"
   message_login: "Tài khoản chưa kích hoạt. Kiếm tra mail để kích hoạt."
@@ -40,12 +41,36 @@ vi:
     destroy:
       delete_success: "Xoá người dùng thành công"
       delete_failed: "Xoá người dùng thất bại"
+  password_resets:
+      password_reset: "Cập nhật mật khẩu"
+      to_reset: "Để cập nhật mật khẩu bấm vào link này:"
+      reset_password: "Lưu mật khẩu"
+      link_expire: "Link này sẽ hết hạn trong 2 tiếng."
+      if_you_did_not: "Nếu bạn không muốn thay đổi mật khẩu,
+      hãy kệ email này và mật khẩu sẽ được giữ nguyên."
+      password_expired: "Thời hạn thay đổi mật khẩu đã hết."
+      create:
+        email_sent: "Email đã được gửi để thay đổi mật khẩu"
+        email_not_found: "Không tìm thấy địa chỉ email."
+      new:
+        forgot_password: "Quên mật khẩu"
+        submit: "Gửi"
+      edit:
+        reset_password: "Thay đổi mật khẩu"
+        password: "Mật khẩu"
+        confirmation: "Xác nhận mật khẩu"
+        update_password: "Cập nhật mật khẩu"
+      update:
+        cant_be_empty: "Không được để trống"
+        password_reseted: "Mật khẩu đã được thay đổi."
+        reset_fail: "Cập nhật mật khẩu thất bại."
   sessions:
     new:
       log_in: "Đăng nhập"
       sign_up_now: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember_me: "Lưu tài khoản trên máy tính này"
+      forgot_password: "Quên mật khẩu"
     create:
       log_in_success: "Chào mừng đến với Sample App!"
       log_in_fail: "Tên đăng nhập hoặc mật khẩu không đúng"
