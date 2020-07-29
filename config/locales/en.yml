@@ -41,29 +41,44 @@ en:
     destroy:
       delete_success: "User deleted"
       delete_failed: "User delete failed"
+  view_my_profile: "View my profile"
+  microposts:
+    less_than: "should be less than 5MB"
+    not_found_micropost: "Micropost not found"
+    compose_new_micropost: "Compost new micropost..."
+    valid_image: "must be a valid image format"
+    microposts: "Microposts"
+    posted: "Posted"
+    ago: "ago."
+    create:
+      micropost_created: "Micropost created!"
+      micropost_create_fail: "Micropost create fail!"
+    destroy:
+      delete_success: "Micropost deleted!"
+      delete_fail: "Micropost delete fail!"
   password_resets:
-      password_reset: "Password reset"
-      to_reset: "To reset your password click the link below:"
-      reset_password: "Reset Password"
-      link_expire: "This link will expire in two hours."
-      if_you_did_not: "If you did not request your password to be reset,
+    password_reset: "Password reset"
+    to_reset: "To reset your password click the link below:"
+    reset_password: "Reset Password"
+    link_expire: "This link will expire in two hours."
+    if_you_did_not: "If you did not request your password to be reset,
       please ignore this email and your password will stay as it is."
-      password_expired: "Password reset has expired."
-      create:
-        email_sent: "Email sent with password reset instructions"
-        email_not_found: "Email address not found"
-      new:
-        forgot_password: "Forgot password"
-        submit: "Submit"
-      edit:
-        reset_password: "Reset password"
-        password: "Password"
-        confirmation: "Confirmation"
-        update_password: "Update Password"
-      update:
-        cant_be_empty: "Can't be empty"
-        password_reseted: "Password has been reset."
-        reset_fail: "Reset password failed."
+    password_expired: "Password reset has expired."
+    create:
+      email_sent: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    edit:
+      reset_password: "Reset password"
+      password: "Password"
+      confirmation: "Confirmation"
+      update_password: "Update Password"
+    update:
+      cant_be_empty: "Can't be empty"
+      password_reseted: "Password has been reset."
+      reset_fail: "Reset password failed."
   sessions:
     new:
       log_in: "Log In"

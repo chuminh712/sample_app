@@ -23,3 +23,11 @@ user:
 check_box: 1
 
 link_expire: 2
+
+microposts:
+  accept_type: "image/jpeg image/gif image/png"
+  type: /%w(image/jpeg image/gif image/png)/
+  maximum: 140
+  less: 5
+  width: 500
+  height: 500

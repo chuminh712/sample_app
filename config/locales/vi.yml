@@ -41,29 +41,45 @@ vi:
     destroy:
       delete_success: "Xoá người dùng thành công"
       delete_failed: "Xoá người dùng thất bại"
+  view_my_profile: "Xem thông tin"
+  microposts:
+    less_than: "dung lượng phải nhỏ hơn 5MB"
+    not_found_micropost: "Không tìm thấy bài viết"
+    compose_new_micropost: "Tạo mới bài viết"
+    valid_image: "Hình ảnh không đúng định dạng"
+    post: "Bài viết"
+    microposts: "Bài viết"
+    posted: "Đã tạo"
+    ago: "trước"
+    create:
+      micropost_created: "Bài viết được tạo!"
+      micropost_create_fail: "Tạo bài viết thất bại!"
+    destroy:
+      delete_success: "Xoá bài viết thành công!"
+      delete_fail: "Xoá bài viết thất bại!"
   password_resets:
-      password_reset: "Cập nhật mật khẩu"
-      to_reset: "Để cập nhật mật khẩu bấm vào link này:"
-      reset_password: "Lưu mật khẩu"
-      link_expire: "Link này sẽ hết hạn trong 2 tiếng."
-      if_you_did_not: "Nếu bạn không muốn thay đổi mật khẩu,
+    password_reset: "Cập nhật mật khẩu"
+    to_reset: "Để cập nhật mật khẩu bấm vào link này:"
+    reset_password: "Lưu mật khẩu"
+    link_expire: "Link này sẽ hết hạn trong 2 tiếng."
+    if_you_did_not: "Nếu bạn không muốn thay đổi mật khẩu,
       hãy kệ email này và mật khẩu sẽ được giữ nguyên."
-      password_expired: "Thời hạn thay đổi mật khẩu đã hết."
-      create:
-        email_sent: "Email đã được gửi để thay đổi mật khẩu"
-        email_not_found: "Không tìm thấy địa chỉ email."
-      new:
-        forgot_password: "Quên mật khẩu"
-        submit: "Gửi"
-      edit:
-        reset_password: "Thay đổi mật khẩu"
-        password: "Mật khẩu"
-        confirmation: "Xác nhận mật khẩu"
-        update_password: "Cập nhật mật khẩu"
-      update:
-        cant_be_empty: "Không được để trống"
-        password_reseted: "Mật khẩu đã được thay đổi."
-        reset_fail: "Cập nhật mật khẩu thất bại."
+    password_expired: "Thời hạn thay đổi mật khẩu đã hết."
+    create:
+      email_sent: "Email đã được gửi để thay đổi mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email."
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Gửi"
+    edit:
+      reset_password: "Thay đổi mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+    update:
+      cant_be_empty: "Không được để trống"
+      password_reseted: "Mật khẩu đã được thay đổi."
+      reset_fail: "Cập nhật mật khẩu thất bại."
   sessions:
     new:
       log_in: "Đăng nhập"
