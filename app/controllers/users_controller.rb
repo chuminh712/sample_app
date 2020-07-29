@@ -1,8 +1,7 @@
 class UsersController < ApplicationController
+  before_action :load_user, :correct_user, only: %i(show edit update)
   before_action :logged_in_user, except: %i(show new create)
-  before_action :correct_user, only: %i(show edit update)
-  before_action :load_user, except: %i(index edit update)
-  before_action :admin_user, only: %i(destroy)
+  before_action :admin_user, only: :destroy
 
   def index
     @users = User.page(params[:page]).per Settings.kaminari.page
@@ -17,9 +16,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".new.sign_up_success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "account_activation.flash_activate"
+      redirect_to root_path
     else
       flash[:danger] = t ".new.sign_up_fail"
       render :new

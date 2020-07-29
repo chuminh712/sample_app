@@ -1,5 +1,16 @@
 vi:
+  hi: "Xin chào"
+  sample_app: "Sample App"
   base_title: Ruby on Rails Tutorial Sample App
+  account_activation:
+    activate: Kiểm tra email để kích hoạt tài khoản.
+    chance: Thay đổi
+    activate_mail_content: "Chào mừng đến với Sample App
+         Bấm vào link này để kích hoạt tài khoản"
+    flash_activate: "Kiểm tra email để kích hoạt tài khoản."
+  account_activated: "Tài khoản đã được kích hoạt!"
+  invalid_activation_link: "Kích hoạt không thành công"
+  message_login: "Tài khoản chưa kích hoạt. Kiếm tra mail để kích hoạt."
   users:
     get_error: "Không tìm thấy người dùng"
     logged_in: "Mời bạn đăng nhập."
