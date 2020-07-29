@@ -21,3 +21,5 @@ user:
   password_length: 6
 
 check_box: 1
+
+link_expire: 2
