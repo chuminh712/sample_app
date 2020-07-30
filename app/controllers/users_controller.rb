@@ -57,14 +57,6 @@ class UsersController < ApplicationController
                                  :password_confirmation)
   end
 
-  def load_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "users.get_error"
-    redirect_to root_url
-  end
-
   def correct_user
     redirect_to root_url unless current_user? @user
   end

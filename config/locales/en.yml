@@ -13,6 +13,10 @@ en:
   invalid_activation_link: Invalid activation link!
   message_login: Account not activated. Check your email for the activation link.
   users:
+    followers: "Followers"
+    following: "Following"
+    unfollow: "Unfollow"
+    follow: "Follow"
     get_error: "Can't find user."
     logged_in: "Please log in."
     new:
@@ -48,6 +52,7 @@ en:
     compose_new_micropost: "Compost new micropost..."
     valid_image: "must be a valid image format"
     microposts: "Microposts"
+    post: "Post"
     posted: "Posted"
     ago: "ago."
     create:

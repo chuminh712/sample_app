@@ -13,6 +13,10 @@ vi:
   invalid_activation_link: "Kích hoạt không thành công"
   message_login: "Tài khoản chưa kích hoạt. Kiếm tra mail để kích hoạt."
   users:
+    followers: "Người theo dõi"
+    following: "Đang theo dõi"
+    unfollow: "Bỏ theo dõi"
+    follow: "Theo dõi"
     get_error: "Không tìm thấy người dùng"
     logged_in: "Mời bạn đăng nhập."
     new:
@@ -47,7 +51,7 @@ vi:
     not_found_micropost: "Không tìm thấy bài viết"
     compose_new_micropost: "Tạo mới bài viết"
     valid_image: "Hình ảnh không đúng định dạng"
-    post: "Bài viết"
+    post: "Đăng"
     microposts: "Bài viết"
     posted: "Đã tạo"
     ago: "trước"

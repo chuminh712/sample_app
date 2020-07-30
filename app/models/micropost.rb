@@ -12,7 +12,7 @@ class Micropost < ApplicationRecord
     content_type: {in: Settings.microposts.type,
       message: I18n.t("microposts.valid_image"),
         size: {less_than: Settings.microposts.less.megabytes,
-         message: I18n.t("microposts.less_than")}}
+          message: I18n.t("microposts.less_than")}}
 
   delegate :name, to: :user, prefix: :user
   scope :recent_posts, ->{order created_at: :desc}
