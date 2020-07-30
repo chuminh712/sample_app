@@ -9,6 +9,7 @@ link:
   size_avatar: 80
   gravatar_email: "https://gravatar.com/emails"
   index_avatar_size: 50
+  feed_gravatar_size: 30
 
 kaminari:
   page: 10
